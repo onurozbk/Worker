@@ -1,0 +1,32 @@
+﻿@model Worker.MvcUI.Models.ProductListViewModel
+@addTagHelper "*,Worker.MvcUI"
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+   
+        <table>
+            <tr>
+                <td>Prodcut Id</td>
+                <td>Prodcut Name</td>
+                <td>Unit Price</td>
+                <td>Unit Stock</td>
+            </tr>
+            @foreach (var item in Model.Products)
+            {
+                <tr>
+                    <td>@item.ProductId</td>
+                    <td>@item.ProductName</td>
+                    <td>@item.UnitPrice</td>
+                    <td>@item.UnitInStock</td>
+                    <td>@item.CategoryId</td>
+                </tr>
+            }
+        </table>
+<product-list-pager 
+current-category="@Model.CurrenCategory" 
+current-page="Model.CurrentPage" 
+page-count="@Model.PageCount" 
+page-size="@Model.PageSize">
+
+</product-list-pager>
