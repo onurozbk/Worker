@@ -43,7 +43,6 @@ namespace Worker.Core.DataAccess.EntityFramework
             using (var context = new TContext())
             {
                 return context.Set<TEntity>().SingleOrDefault(filter);
-
             }
         }
 
@@ -54,7 +53,6 @@ namespace Worker.Core.DataAccess.EntityFramework
                 return filter == null
                     ? context.Set<TEntity>().ToList()
                     : context.Set<TEntity>().Where(filter).ToList();
-
             }
         }
 
