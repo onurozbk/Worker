@@ -1,0 +1,242 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Business\\Worker.Business.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Business\\Worker.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Business\\Worker.Business.csproj",
+        "projectName": "Worker.Business",
+        "projectPath": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Business\\Worker.Business.csproj",
+        "packagesPath": "C:\\Users\\ONUR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ONUR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.DataAccess\\Worker.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.DataAccess\\Worker.DataAccess.csproj"
+              },
+              "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Entities\\Worker.Entities.csproj": {
+                "projectPath": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Entities\\Worker.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Core\\Worker.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Core\\Worker.Core.csproj",
+        "projectName": "Worker.Core",
+        "projectPath": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Core\\Worker.Core.csproj",
+        "packagesPath": "C:\\Users\\ONUR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ONUR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.DataAccess\\Worker.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.DataAccess\\Worker.DataAccess.csproj",
+        "projectName": "Worker.DataAccess",
+        "projectPath": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.DataAccess\\Worker.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ONUR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ONUR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Core\\Worker.Core.csproj": {
+                "projectPath": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Core\\Worker.Core.csproj"
+              },
+              "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Entities\\Worker.Entities.csproj": {
+                "projectPath": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Entities\\Worker.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Entities\\Worker.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Entities\\Worker.Entities.csproj",
+        "projectName": "Worker.Entities",
+        "projectPath": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Entities\\Worker.Entities.csproj",
+        "packagesPath": "C:\\Users\\ONUR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ONUR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Core\\Worker.Core.csproj": {
+                "projectPath": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Core\\Worker.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

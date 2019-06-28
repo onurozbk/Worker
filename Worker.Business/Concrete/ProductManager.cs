@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Worker.Business.Abstract;
+using Worker.Business.Helpers;
 using Worker.DataAccess.Abstract;
 using Worker.Entities.Concrete;
 
@@ -8,14 +9,20 @@ namespace Worker.Business.Concrete
     public class ProductManager : IProductService
     {
         private IProductDal _productDal;
-        public ProductManager(IProductDal productDal)
+        private IMailSender _mailSender;
+        public ProductManager(IProductDal productDal, IMailSender mailSender)
         {
             _productDal = productDal;
+            _mailSender = mailSender;
         }
 
         public void Add(Product product)
+
         {
+            string mail = "Added Product " + product.ProductName;
+
             _productDal.Add(product);
+            _mailSender.SendMail("onurozv@gmail.com", mail, mail);
         }
 
         public void Delete(int productId)

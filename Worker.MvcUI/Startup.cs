@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Worker.Business.Abstract;
 using Worker.Business.Concrete;
+using Worker.Business.Helpers;
 using Worker.DataAccess.Abstract;
 using Worker.DataAccess.Concrete.EntityFramework;
 using Worker.MvcUI.Middelewares;
@@ -20,9 +16,14 @@ namespace Worker.MvcUI
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-           
+
             services.AddScoped<IProductService, ProductManager>();
             services.AddScoped<IProductDal, EfProductDal>();
+
+            services.AddScoped<IMailSender, MailSender>();
+
+            services.AddScoped<IWebSettingsService, WebSettingsManager>();
+            services.AddScoped<IWebSettingsDal, EfWebSettingsDal>();
 
             services.AddScoped<ICategoryService, CategoryManager>();
             services.AddScoped<ICategoryDal, EfCategoryDal>();

@@ -17,7 +17,6 @@ namespace Worker.MvcUI.Controllers
         public ActionResult Index(int page = 1, int category = 0)
         {
             int pageSize = 10;
-          
             var products = _productService.GetByCategory(category);
             ProductListViewModel model = new ProductListViewModel
             {
@@ -29,6 +28,9 @@ namespace Worker.MvcUI.Controllers
                 CurrentPage = page
 
             };
+
+            _productService.Add(new Product { CategoryId=2,UnitPrice=1,UnitInStock=2,ProductName="Bu bir test Ürünüdür2"});
+
             
             return View(model);
         }

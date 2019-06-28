@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 using Worker.Core.Entities;
 
 namespace Worker.Core.DataAccess.EntityFramework
@@ -25,10 +24,8 @@ namespace Worker.Core.DataAccess.EntityFramework
             }
             catch
             {
-                
-               
             }
-           
+
         }
 
         public void Delete(TEntity entity)
