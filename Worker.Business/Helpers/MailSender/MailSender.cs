@@ -7,14 +7,11 @@ namespace Worker.Business.Helpers
 {
     public class MailSender : IMailSender
     {
-
         IWebSettingsService _webSettingsService;
-
         public MailSender(IWebSettingsService webSettingsService)
         {
             _webSettingsService = webSettingsService;
         }
-
         public async void CustomerAddedAsync(Customer customer)
         {
             var data = _webSettingsService.GetWebSettings();
@@ -26,16 +23,11 @@ namespace Worker.Business.Helpers
             mailData = mailData.Replace("{2}", customer.UserPassword);
             body = data.MailTemplate;
             body = body.Replace("{0}", mailData);
-
             await SendMail(customer.Mail, subject, body);
         }
-
-        
-
         public async Task SendMail(string mailAdress, string subject, string body, string attachmentPath = null)
         {
-
-            using (MailMessage mail =  new MailMessage())
+            using (MailMessage mail = new MailMessage())
             {
                 var data = _webSettingsService.GetWebSettings();
                 SmtpClient SmtpServer = new SmtpClient(data.SmptAdress);
