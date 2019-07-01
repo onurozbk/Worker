@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ComplexTypes\" />
+    <ProjectReference Include="..\Worker.Core\Worker.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Worker.Core\Worker.Core.csproj" />
+    <Folder Include="ComplexTypes\" />
   </ItemGroup>
 
 </Project>
