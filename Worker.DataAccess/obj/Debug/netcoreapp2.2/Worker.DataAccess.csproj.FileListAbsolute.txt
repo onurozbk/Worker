@@ -54,3 +54,17 @@ C:\Users\ONUR\Desktop\Worker-master\Worker.DataAccess\obj\Debug\netcoreapp2.2\Wo
 C:\Users\ONUR\Desktop\Worker-master\Worker.DataAccess\obj\Debug\netcoreapp2.2\Worker.DataAccess.csproj.CopyComplete
 C:\Users\ONUR\Desktop\Worker-master\Worker.DataAccess\obj\Debug\netcoreapp2.2\Worker.DataAccess.dll
 C:\Users\ONUR\Desktop\Worker-master\Worker.DataAccess\obj\Debug\netcoreapp2.2\Worker.DataAccess.pdb
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.DataAccess\bin\Debug\netcoreapp2.2\Worker.DataAccess.deps.json
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.DataAccess\bin\Debug\netcoreapp2.2\Worker.DataAccess.dll
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.DataAccess\bin\Debug\netcoreapp2.2\Worker.DataAccess.pdb
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.DataAccess\bin\Debug\netcoreapp2.2\Worker.Core.dll
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.DataAccess\bin\Debug\netcoreapp2.2\Worker.Entities.dll
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.DataAccess\bin\Debug\netcoreapp2.2\Worker.Core.pdb
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.DataAccess\bin\Debug\netcoreapp2.2\Worker.Entities.pdb
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.DataAccess\obj\Debug\netcoreapp2.2\Worker.DataAccess.csprojAssemblyReference.cache
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.DataAccess\obj\Debug\netcoreapp2.2\Worker.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.DataAccess\obj\Debug\netcoreapp2.2\Worker.DataAccess.AssemblyInfoInputs.cache
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.DataAccess\obj\Debug\netcoreapp2.2\Worker.DataAccess.AssemblyInfo.cs
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.DataAccess\obj\Debug\netcoreapp2.2\Worker.DataAccess.csproj.CopyComplete
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.DataAccess\obj\Debug\netcoreapp2.2\Worker.DataAccess.dll
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.DataAccess\obj\Debug\netcoreapp2.2\Worker.DataAccess.pdb

@@ -19,6 +19,8 @@ namespace Worker.MvcUI
 
             services.AddScoped<IProductService, ProductManager>();
             services.AddScoped<IProductDal, EfProductDal>();
+            services.AddScoped<ICustomerService, CustomerManager>();
+            services.AddScoped<ICustomerDal, EfCustomerDal>();
 
             services.AddScoped<IMailSender, MailSender>();
 

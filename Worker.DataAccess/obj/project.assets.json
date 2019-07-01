@@ -3502,23 +3502,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ONUR\\.nuget\\packages\\": {},
+    "C:\\Users\\onur.ozbek\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.DataAccess\\Worker.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\onur.ozbek\\Desktop\\Worker-repo\\Worker\\Worker.DataAccess\\Worker.DataAccess.csproj",
       "projectName": "Worker.DataAccess",
-      "projectPath": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.DataAccess\\Worker.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\ONUR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\onur.ozbek\\Desktop\\Worker-repo\\Worker\\Worker.DataAccess\\Worker.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\onur.ozbek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\onur.ozbek\\Desktop\\Worker-repo\\Worker\\Worker.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ONUR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\onur.ozbek\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3526,16 +3526,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "\\\\192.168.7.11\\dev\\Software\\NugetRepository": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Core\\Worker.Core.csproj": {
-              "projectPath": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Core\\Worker.Core.csproj"
+            "C:\\Users\\onur.ozbek\\Desktop\\Worker-repo\\Worker\\Worker.Core\\Worker.Core.csproj": {
+              "projectPath": "C:\\Users\\onur.ozbek\\Desktop\\Worker-repo\\Worker\\Worker.Core\\Worker.Core.csproj"
             },
-            "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Entities\\Worker.Entities.csproj": {
-              "projectPath": "C:\\Users\\ONUR\\Desktop\\Worker-master\\Worker.Entities\\Worker.Entities.csproj"
+            "C:\\Users\\onur.ozbek\\Desktop\\Worker-repo\\Worker\\Worker.Entities\\Worker.Entities.csproj": {
+              "projectPath": "C:\\Users\\onur.ozbek\\Desktop\\Worker-repo\\Worker\\Worker.Entities\\Worker.Entities.csproj"
             }
           }
         }

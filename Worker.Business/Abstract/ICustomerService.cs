@@ -5,7 +5,7 @@ using Worker.Entities.Concrete;
 
 namespace Worker.Business.Abstract
 {
-    interface ICustomerService
+    public interface ICustomerService
     {
         List<Customer> GetAll();
         List<Customer> GetByCustomerGroup(short groupId);

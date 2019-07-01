@@ -54,3 +54,17 @@ C:\Users\ONUR\Desktop\Worker-master\Worker.Entities\obj\Debug\netcoreapp2.2\Work
 C:\Users\ONUR\Desktop\Worker-master\Worker.Entities\obj\Debug\netcoreapp2.2\Worker.Entities.csproj.CopyComplete
 C:\Users\ONUR\Desktop\Worker-master\Worker.Entities\obj\Debug\netcoreapp2.2\Worker.Entities.dll
 C:\Users\ONUR\Desktop\Worker-master\Worker.Entities\obj\Debug\netcoreapp2.2\Worker.Entities.pdb
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Entities\bin\Debug\netcoreapp2.2\Worker.Entities.deps.json
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Entities\bin\Debug\netcoreapp2.2\Worker.Entities.dll
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Entities\bin\Debug\netcoreapp2.2\Worker.Entities.pdb
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Entities\bin\Debug\netcoreapp2.2\Worker.Core.dll
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Entities\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.dll
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Entities\bin\Debug\netcoreapp2.2\Worker.Core.pdb
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Entities\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Entities\obj\Debug\netcoreapp2.2\Worker.Entities.csprojAssemblyReference.cache
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Entities\obj\Debug\netcoreapp2.2\Worker.Entities.csproj.CoreCompileInputs.cache
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Entities\obj\Debug\netcoreapp2.2\Worker.Entities.AssemblyInfoInputs.cache
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Entities\obj\Debug\netcoreapp2.2\Worker.Entities.AssemblyInfo.cs
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Entities\obj\Debug\netcoreapp2.2\Worker.Entities.csproj.CopyComplete
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Entities\obj\Debug\netcoreapp2.2\Worker.Entities.dll
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Entities\obj\Debug\netcoreapp2.2\Worker.Entities.pdb

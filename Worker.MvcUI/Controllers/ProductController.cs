@@ -10,9 +10,11 @@ namespace Worker.MvcUI.Controllers
     public class ProductController : Controller
     {
         private IProductService _productService;
-        public ProductController(IProductService productService)
+        private ICustomerService _customerService;
+        public ProductController(IProductService productService, ICustomerService customerService)
         {
             _productService = productService;
+            _customerService = customerService;
         }
         public ActionResult Index(int page = 1, int category = 0)
         {
@@ -29,8 +31,8 @@ namespace Worker.MvcUI.Controllers
 
             };
 
-            _productService.Add(new Product { CategoryId=2,UnitPrice=1,UnitInStock=2,ProductName="Bu bir test Ürünüdür2"});
-
+            //_productService.Add(new Product { CategoryId=2,UnitPrice=1,UnitInStock=2,ProductName="Bu bir test Ürünüdür2"});
+            _customerService.Add(new Customer { CustomerName="WBoard Tech",UserName="Onurozbk",UserPassword="1234",Mail="onurozv@gmail.com"});
             
             return View(model);
         }

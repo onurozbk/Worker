@@ -46,3 +46,15 @@ C:\Users\ONUR\Desktop\Worker-master\Worker.Core\obj\Debug\netcoreapp2.2\Worker.C
 C:\Users\ONUR\Desktop\Worker-master\Worker.Core\obj\Debug\netcoreapp2.2\Worker.Core.csproj.CopyComplete
 C:\Users\ONUR\Desktop\Worker-master\Worker.Core\obj\Debug\netcoreapp2.2\Worker.Core.dll
 C:\Users\ONUR\Desktop\Worker-master\Worker.Core\obj\Debug\netcoreapp2.2\Worker.Core.pdb
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Core\bin\Debug\netcoreapp2.2\Worker.Core.deps.json
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Core\bin\Debug\netcoreapp2.2\Worker.Core.dll
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Core\bin\Debug\netcoreapp2.2\Worker.Core.pdb
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Core\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.dll
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Core\bin\Debug\netcoreapp2.2\Microsoft.EntityFrameworkCore.xml
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Core\obj\Debug\netcoreapp2.2\Worker.Core.csprojAssemblyReference.cache
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Core\obj\Debug\netcoreapp2.2\Worker.Core.csproj.CoreCompileInputs.cache
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Core\obj\Debug\netcoreapp2.2\Worker.Core.AssemblyInfoInputs.cache
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Core\obj\Debug\netcoreapp2.2\Worker.Core.AssemblyInfo.cs
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Core\obj\Debug\netcoreapp2.2\Worker.Core.csproj.CopyComplete
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Core\obj\Debug\netcoreapp2.2\Worker.Core.dll
+C:\Users\onur.ozbek\Desktop\Worker-repo\Worker\Worker.Core\obj\Debug\netcoreapp2.2\Worker.Core.pdb

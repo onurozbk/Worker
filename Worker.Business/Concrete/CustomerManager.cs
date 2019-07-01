@@ -7,7 +7,7 @@ using Worker.Entities.Concrete;
 
 namespace Worker.Business.Concrete
 {
-    class CustomerManager : ICustomerService
+    public class CustomerManager : ICustomerService
     {
         private ICustomerDal _customerDal;
         private IMailSender _mailSender;
@@ -19,8 +19,7 @@ namespace Worker.Business.Concrete
         public void Add(Customer customer)
         {
             _customerDal.Add(customer);
-            string mail = "Body";
-            _mailSender.SendMail(customer.Mail, "Müşteri Kimliği Oluşturuldu",mail);
+            _mailSender.CustomerAdded(customer);
         }
 
         public void Delete(int customerId)
