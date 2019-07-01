@@ -1,4 +1,5 @@
 ﻿using System.Net.Mail;
+using System.Threading.Tasks;
 using Worker.Business.Abstract;
 using Worker.Entities.Concrete;
 
@@ -14,7 +15,7 @@ namespace Worker.Business.Helpers
             _webSettingsService = webSettingsService;
         }
 
-        public void CustomerAdded(Customer customer)
+        public async void CustomerAddedAsync(Customer customer)
         {
             var data = _webSettingsService.GetWebSettings();
             string subject, body, mailData = "";
@@ -26,23 +27,15 @@ namespace Worker.Business.Helpers
             body = data.MailTemplate;
             body = body.Replace("{0}", mailData);
 
-            SendMail(customer.Mail, subject, body);
+            await SendMail(customer.Mail, subject, body);
         }
 
+        
 
-
-
-
-
-
-
-
-
-
-        public void SendMail(string mailAdress, string subject, string body, string attachmentPath = null)
+        public async Task SendMail(string mailAdress, string subject, string body, string attachmentPath = null)
         {
 
-            using (MailMessage mail = new MailMessage())
+            using (MailMessage mail =  new MailMessage())
             {
                 var data = _webSettingsService.GetWebSettings();
                 SmtpClient SmtpServer = new SmtpClient(data.SmptAdress);
@@ -55,8 +48,7 @@ namespace Worker.Business.Helpers
                 SmtpServer.Port = data.SmtpPort;
                 SmtpServer.Credentials = new System.Net.NetworkCredential(data.SmtpMail, data.SmtpPassword);
                 SmtpServer.EnableSsl = data.SmtpSSL;
-
-                SmtpServer.Send(mail);
+                await SmtpServer.SendMailAsync(mail);
             }
 
         }

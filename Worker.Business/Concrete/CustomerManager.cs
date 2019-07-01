@@ -17,9 +17,11 @@ namespace Worker.Business.Concrete
             _mailSender = mailSender;
         }
         public void Add(Customer customer)
+
+
         {
             _customerDal.Add(customer);
-            _mailSender.CustomerAdded(customer);
+            _mailSender.CustomerAddedAsync(customer);
         }
 
         public void Delete(int customerId)

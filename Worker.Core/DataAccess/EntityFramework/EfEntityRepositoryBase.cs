@@ -13,18 +13,14 @@ namespace Worker.Core.DataAccess.EntityFramework
     {
         public void Add(TEntity entity)
         {
-            try
+
+            using (var context = new TContext())
             {
-                using (var context = new TContext())
-                {
-                    var addedEntity = context.Entry(entity);
-                    addedEntity.State = EntityState.Added;
-                    context.SaveChanges();
-                }
+                var addedEntity = context.Entry(entity);
+                addedEntity.State = EntityState.Added;
+                context.SaveChanges();
             }
-            catch
-            {
-            }
+
 
         }
 
