@@ -153,7 +153,7 @@ namespace Worker.DataAccess.Migrations
 
                     b.Property<DateTime>("CreateDate");
 
-                    b.Property<int>("CreateUser");
+                    b.Property<int>("CreateUserId");
 
                     b.Property<string>("Image");
 
@@ -167,7 +167,7 @@ namespace Worker.DataAccess.Migrations
 
                     b.Property<DateTime>("UpdateDate");
 
-                    b.Property<int>("UpdateUser");
+                    b.Property<int>("UpdateUserId");
 
                     b.Property<string>("UserName");
 

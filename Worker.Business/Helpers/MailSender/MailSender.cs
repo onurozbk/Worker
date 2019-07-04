@@ -26,6 +26,20 @@ namespace Worker.Business.Helpers
             body = body.Replace("{0}", mailData);
             await SendMail(customer.Mail, subject, body);
         }
+
+        public async void ActivityCreated(Customer customer,Activity activity)
+        {
+            var data = _webSettingsService.GetWebSettings();
+            string subject, body, mailData = "";
+            subject = "Activity Oluşturuldu";
+            mailData = data.ActivityAddedTemplate;
+            mailData = mailData.Replace("{0}", customer.CustomerName);
+            mailData = mailData.Replace("{1}", activity.ActivityId.ToString());
+            mailData = mailData.Replace("{2}", activity.ActivitytDescription);
+            body = data.MailTemplate;
+            body = body.Replace("{0}", mailData);
+            await SendMail(customer.Mail, subject, body);
+        }
         public async Task SendMail(string mailAdress, string subject, string body, string attachmentPath = null)
         {
             using (MailMessage mail = new MailMessage())

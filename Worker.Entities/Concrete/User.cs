@@ -16,8 +16,8 @@ namespace Worker.Entities.Concrete
         public short UserType { get; set; }
         public bool IsActive { get; set; }
         public string Image { get; set; }
-        public int CreateUser { get; set; }
-        public int UpdateUser { get; set; }
+        public int CreateUserId { get; set; }
+        public int UpdateUserId { get; set; }
         public DateTime CreateDate { get; set; }
         public DateTime UpdateDate { get; set; }
     }

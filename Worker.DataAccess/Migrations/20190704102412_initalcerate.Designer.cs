@@ -10,8 +10,8 @@ using Worker.DataAccess.Concrete.EntityFramework;
 namespace Worker.DataAccess.Migrations
 {
     [DbContext(typeof(WorkerContext))]
-    [Migration("20190704083704_test2")]
-    partial class test2
+    [Migration("20190704102412_initalcerate")]
+    partial class initalcerate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -101,7 +101,7 @@ namespace Worker.DataAccess.Migrations
 
                     b.Property<string>("Phone");
 
-                    b.Property<int>("RelatedPerson");
+                    b.Property<string>("RelatedPerson");
 
                     b.Property<string>("TaxCenter");
 
@@ -155,7 +155,7 @@ namespace Worker.DataAccess.Migrations
 
                     b.Property<DateTime>("CreateDate");
 
-                    b.Property<DateTime>("CreateUser");
+                    b.Property<int>("CreateUserId");
 
                     b.Property<string>("Image");
 
@@ -169,7 +169,7 @@ namespace Worker.DataAccess.Migrations
 
                     b.Property<DateTime>("UpdateDate");
 
-                    b.Property<DateTime>("UpdateUser");
+                    b.Property<int>("UpdateUserId");
 
                     b.Property<string>("UserName");
 
@@ -186,6 +186,8 @@ namespace Worker.DataAccess.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("ActivityAddedTemplate");
+
                     b.Property<string>("CustomerAddedTemplate");
 
                     b.Property<string>("MailTemplate");
@@ -196,7 +198,7 @@ namespace Worker.DataAccess.Migrations
 
                     b.Property<string>("SmtpPassword");
 
-                    b.Property<short>("SmtpPort");
+                    b.Property<string>("SmtpPort");
 
                     b.Property<bool>("SmtpSSL");
 

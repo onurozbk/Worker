@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Worker.DataAccess.Migrations
 {
-    public partial class test : Migration
+    public partial class initalcerate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -54,7 +54,7 @@ namespace Worker.DataAccess.Migrations
                     CustomerId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     CustomerName = table.Column<string>(nullable: true),
-                    RelatedPerson = table.Column<int>(nullable: false),
+                    RelatedPerson = table.Column<string>(nullable: true),
                     Mail = table.Column<string>(nullable: true),
                     Phone = table.Column<string>(nullable: true),
                     CellPhone = table.Column<string>(nullable: true),
@@ -110,8 +110,8 @@ namespace Worker.DataAccess.Migrations
                     UserType = table.Column<short>(nullable: false),
                     IsActive = table.Column<bool>(nullable: false),
                     Image = table.Column<string>(nullable: true),
-                    CreateUser = table.Column<DateTime>(nullable: false),
-                    UpdateUser = table.Column<DateTime>(nullable: false),
+                    CreateUserId = table.Column<int>(nullable: false),
+                    UpdateUserId = table.Column<int>(nullable: false),
                     CreateDate = table.Column<DateTime>(nullable: false),
                     UpdateDate = table.Column<DateTime>(nullable: false)
                 },
@@ -129,10 +129,11 @@ namespace Worker.DataAccess.Migrations
                     MailTemplate = table.Column<string>(nullable: true),
                     SmtpMail = table.Column<string>(nullable: true),
                     SmtpPassword = table.Column<string>(nullable: true),
-                    SmtpPort = table.Column<short>(nullable: false),
+                    SmtpPort = table.Column<string>(nullable: true),
                     SmtpSSL = table.Column<bool>(nullable: false),
                     SmptAdress = table.Column<string>(nullable: true),
-                    CustomerAddedTemplate = table.Column<string>(nullable: true)
+                    CustomerAddedTemplate = table.Column<string>(nullable: true),
+                    ActivityAddedTemplate = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
