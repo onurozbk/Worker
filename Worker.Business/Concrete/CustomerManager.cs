@@ -17,8 +17,6 @@ namespace Worker.Business.Concrete
             _mailSender = mailSender;
         }
         public void Add(Customer customer)
-
-
         {
             _customerDal.Add(customer);
             _mailSender.CustomerAddedAsync(customer);
@@ -37,6 +35,11 @@ namespace Worker.Business.Concrete
         public List<Customer> GetByCustomerGroup(short groupId)
         {
             throw new NotImplementedException();
+        }
+
+        public Customer GetById(int customerId)
+        {
+            return _customerDal.Get(x => x.CustomerId == customerId);
         }
 
         public void Update(Customer customer)

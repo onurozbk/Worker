@@ -20,8 +20,6 @@ namespace Worker.Core.DataAccess.EntityFramework
                 addedEntity.State = EntityState.Added;
                 context.SaveChanges();
             }
-
-
         }
 
         public void Delete(TEntity entity)
@@ -34,7 +32,7 @@ namespace Worker.Core.DataAccess.EntityFramework
             }
         }
 
-        public TEntity Get(Expression<Func<TEntity, bool>> filter = null)
+        public TEntity Get(Expression<Func<TEntity, bool>> filter)
         {
             using (var context = new TContext())
             {

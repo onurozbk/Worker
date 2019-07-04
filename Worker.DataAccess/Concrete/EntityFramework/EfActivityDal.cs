@@ -4,7 +4,7 @@ using Worker.Entities.Concrete;
 
 namespace Worker.DataAccess.Concrete.EntityFramework
 {
-    class EfActivityDal:EfEntityRepositoryBase<Activity,WorkerContext>,IActivityDal
+    public class EfActivityDal:EfEntityRepositoryBase<Activity,WorkerContext>,IActivityDal
     {
     }
 }

@@ -7,9 +7,8 @@ namespace Worker.DataAccess.Concrete.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb; Database=WorkerDb; Trusted_Connection=True");
+            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb; Database=WorkerDb1; Trusted_Connection=True");
         }
-
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Activity> Activities { get; set; }

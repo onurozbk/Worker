@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using Worker.Core.Entities;
 
 namespace Worker.Entities.Concrete
@@ -7,7 +8,7 @@ namespace Worker.Entities.Concrete
     {
         public int CustomerId { get; set; }
         public string CustomerName { get; set; }
-        public int RelatedPerson { get; set; }
+        public string RelatedPerson { get; set; }
         public string Mail { get; set; }
         public string Phone { get; set; }
         public string CellPhone { get; set; }

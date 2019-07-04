@@ -12,5 +12,6 @@ namespace Worker.Business.Abstract
         void Add(Customer customer);
         void Update(Customer customer);
         void Delete(int customerId);
+        Customer GetById(int customerId);
     }
 }

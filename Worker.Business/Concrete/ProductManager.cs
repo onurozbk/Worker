@@ -44,5 +44,9 @@ namespace Worker.Business.Concrete
         {
             _productDal.Update(product);
         }
+        public Product GetById(int productId)
+        {
+            return _productDal.Get(x=>x.ProductId==productId);
+        }
     }
 }

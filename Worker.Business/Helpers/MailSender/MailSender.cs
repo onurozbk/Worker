@@ -1,4 +1,5 @@
-﻿using System.Net.Mail;
+﻿using System;
+using System.Net.Mail;
 using System.Threading.Tasks;
 using Worker.Business.Abstract;
 using Worker.Entities.Concrete;
@@ -37,7 +38,7 @@ namespace Worker.Business.Helpers
                 mail.Body = body;
                 mail.IsBodyHtml = true;
 
-                SmtpServer.Port = data.SmtpPort;
+                SmtpServer.Port = Convert.ToInt32(data.SmtpPort);
                 SmtpServer.Credentials = new System.Net.NetworkCredential(data.SmtpMail, data.SmtpPassword);
                 SmtpServer.EnableSsl = data.SmtpSSL;
                 await SmtpServer.SendMailAsync(mail);

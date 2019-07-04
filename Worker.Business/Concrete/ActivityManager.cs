@@ -5,16 +5,24 @@ using Worker.Entities.Concrete;
 
 namespace Worker.Business.Concrete
 {
-    class ActivityManager : IActivityService
+    public class ActivityManager : IActivityService
     {
         private IActivityDal _activityDal;
-        public ActivityManager(IActivityDal activityDal)
+        private ICustomerDal _customerDal;
+        private ICustomerService _customerService;
+
+        public ActivityManager(IActivityDal activityDal, ICustomerDal customerDal, ICustomerService customerService)
         {
             _activityDal = activityDal;
+            _customerDal = customerDal;
+            _customerService = customerService;
         }
 
         public void Add(Activity activity)
         {
+            var customer = _customerDal.Get(x => x.CustomerId == activity.CustomerId);
+            if (customer == null)
+                return;
             _activityDal.Add(activity);
         }
 

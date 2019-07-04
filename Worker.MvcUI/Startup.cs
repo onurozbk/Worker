@@ -19,16 +19,20 @@ namespace Worker.MvcUI
 
             services.AddScoped<IProductService, ProductManager>();
             services.AddScoped<IProductDal, EfProductDal>();
+
             services.AddScoped<ICustomerService, CustomerManager>();
             services.AddScoped<ICustomerDal, EfCustomerDal>();
-
-            services.AddScoped<IMailSender, MailSender>();
 
             services.AddScoped<IWebSettingsService, WebSettingsManager>();
             services.AddScoped<IWebSettingsDal, EfWebSettingsDal>();
 
             services.AddScoped<ICategoryService, CategoryManager>();
             services.AddScoped<ICategoryDal, EfCategoryDal>();
+
+            services.AddScoped<IActivityService, ActivityManager>();
+            services.AddScoped<IActivityDal, EfActivityDal>();
+
+            services.AddScoped<IMailSender, MailSender>();
             services.AddSession();
             services.AddDistributedMemoryCache();
             services.AddMvc();
